@@ -1,0 +1,89 @@
+
+h2, h3 {
+  font-family: 'Lora', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-image:url(../images/background.jpg);
+
+  background-repeat:no-repeat;
+
+  background-size:cover;
+  height: 100%;
+}
+#maintext-backdrop-portfolio {
+  height: screen;
+  width: 60%;
+  position: relative;
+  left: 18%;
+  background-color: #FFFFFF;
+  opacity: 0.65; 
+}
+#maintext-backdrop-about {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  left: 18%;
+  background-color: #FFFFFF;
+  opacity: 0.65; 
+}
+
+li {
+  position: relative;
+  left: 60%;
+}
+#name {
+  position: relative;
+  left: 22%;
+}
+#contactme {
+  position: relative;
+  background-color: #E5E5E5;
+  opacity: 0.65;
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin: 10px;
+}
+#contactlink {
+  color: #5DA7AE;
+}
+#headline {
+  float: center;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  height: 125px;
+}
+#aboutmeheadline {
+  float: center;
+  text-align: center;
+  position: relative;
+  top: 30px;
+  height: 75px;
+}
+#maintext {
+  text-align: justify;
+  width: 70%;
+  position: absolute;
+  left: 15%;
+}
+#eliza {
+  width: 45%;
+  height: auto;
+  border: solid .75px rgba(0,0,0,0.4);
+  margin: 15px 10px 10px 15px;
+  float: left;
+}
+#content {
+  z-index: 30;
+}
+#projectlist {
+  width: 80%;
+  position: relative;
+  margin: 0px 75px 0px 75px;
+}

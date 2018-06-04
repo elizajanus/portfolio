@@ -121,7 +121,7 @@ p {
     height: 100%;
     width: 60%;
     position: relative;
-    left: 18%;
+    left: 10%;
     background-color: rgba(255,255,255,0.65);
   }
 
@@ -131,7 +131,7 @@ p {
   }
   #name {
     position: relative;
-    left: 22%;
+    left: 15%;
   }
   #contactme {
     position: relative;
@@ -176,7 +176,7 @@ p {
   #projectlist {
     width: 80%;
     position: relative;
-    margin: 0px 75px 0px 75px;
+    margin: 0px 75px 0px 60px;
   }
 }
 
@@ -199,16 +199,16 @@ p {
  
   #maintext-backdrop-portfolio {
     height:screen;
-    width: 70%;
+    width: 60%;
     position: relative;
-    left: 2%;
+    left: 10%;
     background-color: rgba(255,255,255,0.65);
   }
   #maintext-backdrop-about {
     height: 100%;
     width: 60%;
     position: relative;
-    left: 18%;
+    left: 10%;
     background-color: rgba(255,255,255,0.65);
   }
   
@@ -264,7 +264,7 @@ p {
   #projectlist {
     width: 80%;
     position: relative;
-    margin: 0px 75px 0px 75px;
+    margin: 0px 75px 0px 50px;
   }
 }
 
@@ -373,7 +373,7 @@ p {
   }
   #maintext-backdrop-portfolio {
     height: screen;
-    width: 70%;
+    width: 60%;
     position: absolute;
     left: 10%;
     background-color: rgba(255,255,255,0.65);
@@ -381,8 +381,8 @@ p {
   #maintext-backdrop-about {
     height: 100%;
     width: 60%;
-    position: relative;
-    left: 18%;
+    position: absolute;
+    left: 10%;
     background-color: rgba(255,255,255,0.65);
   }
   
@@ -392,11 +392,11 @@ p {
   }
   #name {
     position: relative;
-    left: 3%;
+    left: 5%;
   }
   #contactme {
     position: relative;
-    right: -30%;
+    right: -15%;
     background-color: #E5E5E5;
     opacity: 0.65;
     height: 200px;
@@ -438,7 +438,7 @@ p {
   #projectlist {
     width: 80%;
     position: relative;
-    margin: 0px 20px 0px 30px;
+    margin: 0px 40px 0px 30px;
   }
 }
 
@@ -482,11 +482,11 @@ p {
   }
   #contactme {
     position: relative;
-    right: -40%;
+    right: -25%;
     background-color: #E5E5E5;
     opacity: 0.65;
     height: 200px;
-    width: 200px;
+    width: 150px;
     float: right;
     margin: 10px;
   }
@@ -497,29 +497,29 @@ p {
     float: center;
     text-align: center;
     position: relative;
-    top: 30px;
-    left: 35px;
-    height: 125px;
+    top: 10px;
+    /*left: 5px;*/
+    height: 90px;
   }
   #aboutmeheadline {
     float: center;
     text-align: center;
     position: relative;
-    top: 30px;
-    height: 75px;
+    top: 10px;
+    height: 60px;
   }
   #maintext {
-    text-align: justify;
+    /*text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
   }
   #eliza {
-    width: 45%;
+    width: 75%;
     height: auto;
     border: solid .75px rgba(0,0,0,0.4);
-    margin: 15px 10px 10px 15px;
-    float: left;
+    margin: 10px 5px 10px 15px;
+    float: center;
   }
  
   #projectlist {
@@ -541,16 +541,16 @@ p {
   }
   #maintext-backdrop-portfolio {
     height: screen;
-    width: 60%;
+    width: 80%;
     position: relative;
-    left: 18%;
+    left: 5%;
     background-color: rgba(255,255,255,0.65);
   }
   #maintext-backdrop-about {
-    height: 100%;
-    width: 60%;
+    height: 125%;
+    width: 80%;
     position: relative;
-    left: 18%;
+    left: 5%;
     background-color: rgba(255,255,255,0.65);
   }
   
@@ -579,23 +579,26 @@ p {
     float: center;
     text-align: center;
     position: relative;
-    margin: 5px 5px -125px 25px;
+    left: 30px;
+    top: 5px;
+    height: 75px;
   }
   #aboutmeheadline {
     float: center;
     text-align: center;
     position: relative;
-    top: 30px;
-    height: 75px;
+    left: 30px;
+    top: 5px;
+    height: 30px;
   }
   #maintext {
-    text-align: justify;
+    /*text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
   }
   #eliza {
-    width: 45%;
+    width: 75%;
     height: auto;
     border: solid .75px rgba(0,0,0,0.4);
     margin: 15px 10px 10px 15px;
@@ -605,6 +608,7 @@ p {
   #projectlist {
     width: 80%;
     position: relative;
-    margin: 0px 0px 0px 15px;
+    left: 40px;
+    /*margin: 0px 0px 0px 15px;*/
   } 
 }

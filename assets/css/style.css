@@ -7,81 +7,602 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  background-image:url(../images/background.jpg);
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 1281px) {
+  #nav {
+    position: relative;
+  }
+  body {
+    background-image:url(../images/background.jpg);
 
-  background-repeat:no-repeat;
+    background-repeat:no-repeat;
 
-  background-size:cover;
-  height: 100%;
-}
-#maintext-backdrop-portfolio {
-  height: screen;
-  width: 60%;
-  position: relative;
-  left: 18%;
-  background-color: rgba(255,255,255,0.65);
-}
-#maintext-backdrop-about {
-  height: 100%;
-  width: 60%;
-  position: relative;
-  left: 18%;
-  background-color: rgba(255,255,255,0.65);
+    background-size:cover;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 22%;
+  }
+  #contactme {
+    position: relative;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 75px 0px 75px;
+  }
 }
 
-li {
-  position: relative;
-  left: 60%;
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #nav {
+    position: relative;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: repeat;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: screen;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 22%;
+  }
+  #contactme {
+    position: relative;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 75px 0px 75px;
+  }
 }
-#name {
-  position: relative;
-  left: 22%;
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1023px) {
+  #nav {
+    position: relative;
+    right: 5%;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:screen;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+ 
+  #maintext-backdrop-portfolio {
+    height:screen;
+    width: 70%;
+    position: relative;
+    left: 2%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 15%;
+  }
+  #contactme {
+    position: relative;
+    right: -1%;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+ 
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 75px 0px 75px;
+  }
 }
-#contactme {
-  position: relative;
-  background-color: #E5E5E5;
-  opacity: 0.65;
-  height: 200px;
-  width: 200px;
-  float: right;
-  margin: 10px;
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #nav {
+    position: relative;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:screen;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 22%;
+  }
+  #contactme {
+    position: relative;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+ 
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 75px 0px 75px;
+  }
 }
-#contactlink {
-  color: #5DA7AE;
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #nav {
+    position: relative;
+    right: -20%;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:screen;
+    background-position: center center;
+    background-repeat: repeat;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: screen;
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 3%;
+  }
+  #contactme {
+    position: relative;
+    right: -30%;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 20px 0px 30px;
+  }
 }
-#headline {
-  float: center;
-  text-align: center;
-  position: relative;
-  top: 30px;
-  height: 125px;
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 327px) and (max-width: 480px) {
+  #nav {
+    position: relative;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:screen;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: screen;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 22%;
+  }
+  #contactme {
+    position: relative;
+    right: -40%;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 35px;
+    height: 125px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+ 
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 10px 0px 20px;
+  } 
 }
-#aboutmeheadline {
-  float: center;
-  text-align: center;
-  position: relative;
-  top: 30px;
-  height: 75px;
-}
-#maintext {
-  text-align: justify;
-  width: 70%;
-  position: absolute;
-  left: 15%;
-}
-#eliza {
-  width: 45%;
-  height: auto;
-  border: solid .75px rgba(0,0,0,0.4);
-  margin: 15px 10px 10px 15px;
-  float: left;
-}
-#content {
-  z-index: 30;
-}
-#projectlist {
-  width: 80%;
-  position: relative;
-  margin: 0px 75px 0px 75px;
+@media (min-width: 320px) and (max-width: 326px) {
+  #nav {
+    position: relative;
+  }
+  body {
+    background-image:url(../images/background.jpg);
+    background-size:screen;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  #maintext-backdrop-portfolio {
+    height: screen;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  #maintext-backdrop-about {
+    height: 100%;
+    width: 60%;
+    position: relative;
+    left: 18%;
+    background-color: rgba(255,255,255,0.65);
+  }
+  
+  li {
+    position: relative;
+    left: 60%;
+  }
+  #name {
+    position: relative;
+    left: 30px;
+  }
+  #contactme {
+    position: relative;
+    right: -30%;
+    background-color: #E5E5E5;
+    opacity: 0.65;
+    height: 200px;
+    width: 125px;
+    float: right;
+    margin: 10px;
+  }
+  #contactlink {
+    color: #5DA7AE;
+  }
+  #headline {
+    float: center;
+    text-align: center;
+    position: relative;
+    margin: 5px 5px -125px 25px;
+  }
+  #aboutmeheadline {
+    float: center;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    height: 75px;
+  }
+  #maintext {
+    text-align: justify;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+  }
+  #eliza {
+    width: 45%;
+    height: auto;
+    border: solid .75px rgba(0,0,0,0.4);
+    margin: 15px 10px 10px 15px;
+    float: left;
+  }
+ 
+  #projectlist {
+    width: 80%;
+    position: relative;
+    margin: 0px 0px 0px 15px;
+  } 
 }

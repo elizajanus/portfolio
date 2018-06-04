@@ -3,17 +3,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <title>Eliza's Portfolio</title>
 </head>
 <body>
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs" id="nav">
         <li role="presentation" id="name"><h2>Eliza Janus</h2></li>
         <li role="presentation" class="active"><a href="./index.html"><p>About Me</p></a></li>
-        <li role="presentation" class="active"><a href="./portfolio.html"><p>Portfolio</p></a></li>
     </ul>
    
   <div class="container">
@@ -31,65 +36,119 @@
              <h2>Portfolio</h2> 
             </div>
           <div class="row" id="projectlist">
-              <div class="col-sm-6 col-md-4">
+              <div class="col-sm-6">
                 <div class="thumbnail">
                   <img src="assets/images/portfolio-1.jpg">
                   <div class="caption">
                     <h3>Project</h3>
                     <p>this project blah blah blah</p>
-                    <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                  <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project1modal">Open</button>
+
+                        <div class="modal fade bs-example-modal-sm" id="project1modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                          <div class="modal-dialog modal-sm">
+                            <div class="modal-content" id="modalcontent">
+                            <h3>Project 1</h3>
+                            <p>screenshot and links</p>
+                            </div>
+                          </div>
+                        </div>
                   </div>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4">
+              <div class="col-sm-6">
                   <div class="thumbnail">
                     <img src="assets/images/portfolio-2.jpg">
                     <div class="caption">
                       <h3>Project</h3>
                       <p>this project blah blah blah</p>
-                      <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                      <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project2modal">Open</button>
+
+                          <div class="modal fade bs-example-modal-sm" id="project2modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content" id="modalcontent">
+                                  <h3>Project 2</h3>
+                                  <p>screenshot and links</p>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6">
                     <div class="thumbnail">
                       <img src="assets/images/portfolio-4.jpg">
                       <div class="caption">
                         <h3>Project</h3>
                         <p>this project blah blah blah</p>
-                        <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project3modal">Open</button>
+
+                          <div class="modal fade bs-example-modal-sm" id="project3modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content" id="modalcontent">
+                                  <h3>Project 3</h3>
+                                  <p>screenshot and links</p>
+                              </div>
+                            </div>
+                          </div>
                       </div>
                     </div>
                   </div>
                 </div>
                   <div class="row" id="projectlist">
-                  <div class="col-sm-6 col-md-4">
+                  <div class="col-sm-6">
                       <div class="thumbnail">
                         <img src="assets/images/portfolio-5.jpg">
                         <div class="caption">
                           <h3>Project</h3>
                           <p>this project blah blah blah</p>
-                          <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                          <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project4modal">Open</button>
+
+                          <div class="modal fade bs-example-modal-sm" id="project4modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content" id="modalcontent">
+                                  <h3>Project 4</h3>
+                                  <p>screenshot and links</p>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6">
                         <div class="thumbnail">
                           <img src="assets/images/portfolio-3.jpg">
                           <div class="caption">
                             <h3>Project</h3>
                             <p>this project blah blah blah</p>
-                            <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project5modal">Open</button>
+
+                          <div class="modal fade bs-example-modal-sm" id="project5modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content" id="modalcontent">
+                                  <h3>Project 5</h3>
+                                  <p>screenshot and links</p>
+                              </div>
+                            </div>
+                          </div>
                           </div>
                         </div>
                       </div>
-                      <div class="col-sm-6 col-md-4">
+                      <div class="col-sm-6">
                           <div class="thumbnail">
                             <img src="assets/images/portfolio-6.jpg"s>
                             <div class="caption">
                               <h3>Project</h3>
                               <p>this project blah blah blah</p>
-                              <p><a href="#" class="btn btn-default" role="button">Open</a></p>
+                              <button type="button" class="btn btn-default" data-toggle="modal" data-target="#project6modal">Open</button>
+
+                          <div class="modal fade bs-example-modal-sm" id="project6modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                            <div class="modal-dialog modal-sm">
+                              <div class="modal-content" id="modalcontent">
+                                  <h3>Project 6</h3>
+                                  <p>screenshot and links</p>
+                              </div>
+                            </div>
+                          </div>
                             </div>
                           </div>
                         </div>

@@ -75,7 +75,8 @@ p {
     height: 75px;
   }
   #maintext {
-    text-align: justify;
+    /*text-align: justify;
+    text-justify: distribute;*/
     width: 70%;
     position: absolute;
     left: 15%;
@@ -84,7 +85,7 @@ p {
     width: 45%;
     height: auto;
     border: solid .75px rgba(0,0,0,0.4);
-    margin: 15px 10px 10px 15px;
+    margin: 15px 10px 0px 15px;
     float: left;
   }
 
@@ -160,7 +161,7 @@ p {
     height: 75px;
   }
   #maintext {
-    text-align: justify;
+    /*text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
@@ -248,7 +249,7 @@ p {
     height: 75px;
   }
   #maintext {
-    text-align: justify;
+    /*text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
@@ -334,7 +335,7 @@ p {
     height: 75px;
   }
   #maintext {
-    text-align: justify;
+   /* text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
@@ -422,7 +423,7 @@ p {
     height: 75px;
   }
   #maintext {
-    text-align: justify;
+   /* text-align: justify;*/
     width: 70%;
     position: absolute;
     left: 15%;
@@ -444,7 +445,7 @@ p {
 
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
+  ##Screen = B/w 327px to 480px
 */
 @media (min-width: 327px) and (max-width: 480px) {
   #nav {
@@ -512,7 +513,7 @@ p {
     /*text-align: justify;*/
     width: 70%;
     position: absolute;
-    left: 15%;
+    left: 15%; 
   }
   #eliza {
     width: 75%;
@@ -596,6 +597,7 @@ p {
     width: 70%;
     position: absolute;
     left: 15%;
+    margin: 0px 0px 50px 0px;
   }
   #eliza {
     width: 75%;
@@ -611,4 +613,10 @@ p {
     left: 40px;
     /*margin: 0px 0px 0px 15px;*/
   } 
+  #titlemodal {
+    text-align: center;
+  }
+  #imagemodal {
+    float: center;
+  }
 }
